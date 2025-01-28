@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baksoum - Ramassage & Livraison</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Baksoum</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="pickup.html" class="active">Ramassage & Livraison</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="payment.html">Paiement</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="pickup">
+        <h2>Service de Ramassage et Livraison</h2>
+        <p>Nous proposons un service de ramassage et de livraison pour vos vêtements et articles à entretenir. Vous pouvez planifier une collecte directement depuis notre site.</p>
+
+        <h3>Planifier un Ramassage</h3>
+        <form class="pickup-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+
+            <label for="address">Adresse de Ramassage :</label>
+            <input type="text" id="address" name="address" placeholder="Entrez votre adresse" required>
+
+            <label for="date">Date de Ramassage :</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="phone">Numéro de Téléphone :</label>
+            <input type="tel" id="phone" name="phone" placeholder="Entrez votre numéro" required>
+
+            <button type="submit">Planifier le Ramassage</button>
+        </form>
+
+        <h3>Nos Zones de Livraison</h3>
+        <p>Nous desservons plusieurs zones à Montréal et dans les environs. Vérifiez la zone couverte par notre service avant de réserver une collecte.</p>
+
+        <img src="https://via.placeholder.com/600x300?text=Ramassage+et+Livraison" alt="Zones desservies">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Baksoum - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
